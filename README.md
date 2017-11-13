@@ -1,77 +1,61 @@
-Dash Core staging tree 0.12.1
+ApptisCoin Core staging tree 0.12.1
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=master)](https://travis-ci.org/dashpay/dash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=v0.12.0.x)](https://travis-ci.org/dashpay/dash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=v0.12.1.x)](https://travis-ci.org/dashpay/dash/branches)
+ApptisCoin is a cutting edge cryptocurrency, with many 
+features not available in most other cryptocurrencies.
 
-https://www.dash.org
+First cryptocurrency project optimized for smart phone 
+Staking through a friendly user app.
+
+Unique Smart Phone App Earning Opportunity 
+With ApptisCoin staking app users can now mint ATC within the 
+app wallet when connected to the internet. This is a new easier 
+way to earn cryptocurrency without expensive mining hardware
+
+- Comes with integrated debit card.
+- Users can now pay for items costing less than a dollar as there are no transactions fees.
+- Anonymized transactions using coin mixing technology - PrivateSend.
+- Fast transactions featuring guaranteed zero confirmation transactions, - InstantX.
+- Decentralized blockchain voting providing for consensus based advancement of the current Masternode
+  technology used to secure the network and provide the above features, each Masternode is secured
+  with a collateral of 5,000K ATC.
 
 
-What is Dash?
+
+What is ApptisCoin?
 ----------------
 
-Dash is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Dash uses peer-to-peer technology
-to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Dash Core is the name of the open
-source software which enables the use of this currency.
+ApptisCoin is a decentralized currency and global payment network 
+designed to simplify cryptocurrency and to permeate blockchain 
+technology into mobile phone application. ApptisCoin is a privacy 
+centric network with it own purpose built blockchain offering 
+(for the first time ever) innovative smart phone staking wallet. 
+The app wallet mints coins according to the balance amount in 
+the wallet, powered by the ApptisCoin master nodes. 
 
-For more information, as well as an immediately useable, binary version of
-the Dash Core software, see https://www.dash.org/get-dash/.
+For more information, as well as how to take advantage of the 
+innovative cryptocurrency project, please check out the information site - https://apptiscoin.com
 
 
-License
+### Coin Specs
+<table>
+<tr><td>Algo</td><td>X11</td></tr>
+<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
+<tr><td>Max Coin Supply </td><td>49,000,000 ATC</td></tr>
+<tr><td>ICO Coin Supply </td><td>17,000,000</td></tr>
+<tr><td>PoW Coin Supply</td><td>540,000 ATC</td></tr>
+</table>
+
+
+
+This repository is by any means complete, the ApptisCoin blochchain 
+is still under development, will upload code after ICO and project launch. 
 -------
 
-Dash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
 
-Development Process
 -------------------
 
-The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/dashpay/dash/tags) are created to indicate new official,
-stable release versions of Dash Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Testing
--------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write [unit tests](/doc/unit-tests.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`
-
-There are also [regression and integration tests](/qa) of the RPC interface, written
-in Python, that are run automatically on the build server.
-These tests can be run (if the [test dependencies](/qa) are installed) with: `qa/pull-tester/rpc-tests.py`
-
-The Travis CI system makes sure that every pull request is built for Windows
-and Linux, OS X, and that unit and sanity tests are automatically run.
-
-### Manual Quality Assurance (QA) Testing
-
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Dash Core's Transifex page](https://www.transifex.com/projects/p/dash/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.dash.org/forum/topic/dash-worldwide-collaboration.88/).
