@@ -1,4 +1,4 @@
-ApptisCoin Core staging tree 0.12.1
+ApptisCoin Core - Forked from Dash
 ===============================
 
 ApptisCoin is a cutting edge cryptocurrency, with many 
