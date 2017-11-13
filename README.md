@@ -50,7 +50,7 @@ innovative cryptocurrency project, please check out the information site - https
 
 
 
-This repository is by any means complete, the ApptisCoin blochchain 
+This repository is not by any means complete, the ApptisCoin blochchain 
 is still under development, will upload code after ICO and project launch. 
 -------
 
