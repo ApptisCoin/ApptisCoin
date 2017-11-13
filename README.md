@@ -42,9 +42,9 @@ innovative cryptocurrency project, please check out the information site - https
 <tr><td>Algo</td><td>X11</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply </td><td>49,000,000 ATC</td></tr>
+<tr><td>Max Coin Supply </td><td>42,000,000 ATC</td></tr>
 <tr><td>ICO Coin Supply </td><td>17,000,000</td></tr>
-<tr><td>PoW Coin Supply</td><td>540,000 ATC</td></tr>
+<tr><td>PoW Coin Supply</td><td>510,000 ATC</td></tr>
 </table>
 
 
